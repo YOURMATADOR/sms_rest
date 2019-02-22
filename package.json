@@ -1,0 +1,29 @@
+{
+  "name": "sms_rest",
+  "version": "1.0.0",
+  "description": "envio de sms con codigos de verificacion ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOURMATADOR/sms_rest.git"
+  },
+  "keywords": [
+    "sms",
+    "codigo",
+    "verifiacion",
+    "REST"
+  ],
+  "author": "Eduardo Avila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YOURMATADOR/sms_rest/issues"
+  },
+  "homepage": "https://github.com/YOURMATADOR/sms_rest#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
