@@ -1,7 +1,7 @@
 const getIndex =(req,res,next)=>{
-    console.log('resp');
     
-    res.send({saludo:"hola que tal",
+    
+    res.status(200).send({saludo:"hola que tal continual en la ruta /login para ingresar tu telefono",
                 })
 }
 

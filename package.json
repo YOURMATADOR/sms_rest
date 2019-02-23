@@ -4,7 +4,8 @@
   "description": "envio de sms con codigos de verificacion ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "SECRETO=njdnjdn node index.js",
+    "test": "PORT=3001 SECRETO=wefknwekfnw jest"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,20 @@
   },
   "homepage": "https://github.com/YOURMATADOR/sms_rest#readme",
   "dependencies": {
+    "awesome-phonenumber": "^2.4.2",
+    "axios": "^0.18.0",
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "google-libphonenumber": "^3.2.2",
+    "jest": "^24.1.0",
+    "jsonwebtoken": "^8.5.0",
+    "phone": "^2.3.5",
+    "plivo": "^4.0.7",
+    "puretext": "^0.1.5",
+    "randomatic": "^3.1.1",
+    "request": "^2.88.0",
+    "supertest": "^3.4.2",
+    "twilio": "^3.28.1"
   }
 }
